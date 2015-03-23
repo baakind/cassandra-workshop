@@ -1,4 +1,8 @@
 # Multi node cluster #
+_Todo:_
+
+1. Definere tre seed-noder
+2. Avklare Opscenter ip
 
 ## Installere Datastax-agent ##
 * Laste ned [Datastax Agent 5.1.0](http://downloads.datastax.com/community/datastax-agent-5.1.0.tar.gz)
@@ -17,6 +21,8 @@
 	* seeds: liste av tre noder (bestemmes på workshopen, starter først)
 	* listen_address: din ip
 	* rpc_address: din ip
+	
+### I plenum ###
 * Seed noder starter først (bin/cassandra -f -> waiting for thrift clients...)
 * Visualsering vha OpsCenter
 	* [Localhost](http://localhost:8888) 
