@@ -4,7 +4,7 @@
 - Introduksjon til Cassandra
 - Oppsett av Single-node cluster lokalt
 - Oppsett av Multi-node cluster mellom maskinene
- - Teste fault tolerance
+ - Fokus på fault tolerance
  - Visualisere tilstanden i clusteret vha OpsCenter
 
 ## Nyttige linker ##
