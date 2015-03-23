@@ -3,6 +3,7 @@ _Todo:_
 
 1. Definere tre seed-noder
 2. Avklare Opscenter ip
+3. Finne egen ip og markere sin maskin med denne vha post-it
 
 ## Installere Datastax-agent ##
 * Laste ned [Datastax Agent 5.1.0](http://downloads.datastax.com/community/datastax-agent-5.1.0.tar.gz)
