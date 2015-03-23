@@ -2,7 +2,6 @@
 
 
 ## Start Cassandra ##
-----
 * Last ned [Cassandra](http://planetcassandra.org/cassandra/)
 	* Tarball 2.0.12 
 * Unzip
@@ -17,7 +16,6 @@
 
 
 ## Interagere med clusteret ##
----
 * Nytt terminalvindu
 * bin/cqlsh
 	* `DESCRIBE keyspaces`
@@ -31,7 +29,6 @@
 	* andre kommandoer som repair, compaction etc.
 	
 ## Importere data ##
----
 * unpack `datasett-singlenode.tar.gz`
 * bin/cqlsh -f datasett/playlist.cql
 * bin/cqlsh
