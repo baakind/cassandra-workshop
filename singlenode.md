@@ -19,7 +19,7 @@
 * Nytt terminalvindu
 * bin/cqlsh
 	* `DESCRIBE keyspaces`
-	* `USE system`
+	* `USE system;`
 	* `DESCRIBE tables`
 	* `DESCRIBE TABLE batchlog`
 	* `exit`
@@ -33,14 +33,14 @@
 * bin/cqlsh -f datasett/playlist.cql
 * bin/cqlsh
 	* `DESCRIBE keyspaces`
-	* `USE playlist`
+	* `USE playlist;`
 	* `DESCRIBE tables`
 	* `DESCRIBE TABLE track_by_genre`
-	* `SELECT COUNT(1) FROM track_by_genre`
+	* `SELECT COUNT(1) FROM track_by_genre;`
 		* Hva skjedde?
 		* LIMIT
-	* `SELECT DISTRINCT genre FROM track_by_genre;`
-	* `SELECT * FROM track_by_genre WHERE genre = 'pop' LIMIT 10`
+	* `SELECT DISTINCT genre FROM track_by_genre;`
+	* `SELECT * FROM track_by_genre WHERE genre = 'pop' LIMIT 10;`
 	* `SELECT * FROM track_by_genre WHERE track_length_in_seconds > 190;`
 		* Hva skjedde?
 		* CREATE INDEX name ON table(column_name)
