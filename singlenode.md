@@ -19,7 +19,7 @@
 * Nytt terminalvindu
 * bin/cqlsh
 	* `DESCRIBE keyspaces`
-	* `USE system`
+	* `USE system;`
 	* `DESCRIBE tables`
 	* `DESCRIBE TABLE batchlog`
 	* `exit`
@@ -33,7 +33,7 @@
 * bin/cqlsh -f datasett/playlist.cql
 * bin/cqlsh
 	* `DESCRIBE keyspaces`
-	* `USE playlist`
+	* `USE playlist;`
 	* `DESCRIBE tables`
 	* `DESCRIBE TABLE track_by_genre`
 	* `SELECT COUNT(1) FROM track_by_genre`
