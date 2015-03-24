@@ -35,11 +35,11 @@
 	* `DESCRIBE keyspaces`
 	* `USE playlist`
 	* `DESCRIBE tables`
-	* `DESCRIBE TABLE track_by_artist`
-	* `SELECT * FROM track_by_artist LIMIT 10`
-	* `SELECT * FROM track_by_artist WHERE artist = 'Lee Greenwood';`
-	* `SELECT * FROM track_by_artist WHERE track = 'America';`
+	* `DESCRIBE TABLE track_by_genre`
+	* `SELECT * FROM track_by_genre LIMIT 10`
+	* `SELECT * FROM track_by_genre WHERE genre = 'classic pop and rock' AND track = 'A Bigger Mood';`
 		* Hva skjedde?
 		* ALLOW FILTERING
-	* `SELECT * FROM track_by_artist WHERE artist = 'Lee Greenwood' AND track = 'America';`
+		* CREATE INDEX name ON table(column_name)
+	* `SELECT * FROM track_by_genre WHERE genre = 'classic pop and rock' AND artist = 'American Hi-Fi';`
 	* `exit`
