@@ -36,10 +36,15 @@
 	* `USE playlist`
 	* `DESCRIBE tables`
 	* `DESCRIBE TABLE track_by_genre`
-	* `SELECT * FROM track_by_genre LIMIT 10`
-	* `SELECT * FROM track_by_genre WHERE genre = 'classic pop and rock' AND track = 'A Bigger Mood';`
+	* `SELECT COUNT(1) FROM track_by_genre`
 		* Hva skjedde?
-		* ALLOW FILTERING
+		* LIMIT
+	* `SELECT DISTRINCT genre FROM track_by_genre;`
+	* `SELECT * FROM track_by_genre WHERE genre = 'pop' LIMIT 10`
+	* `SELECT * FROM track_by_genre WHERE track_length_in_seconds > 190;`
+		* Hva skjedde?
 		* CREATE INDEX name ON table(column_name)
-	* `SELECT * FROM track_by_genre WHERE genre = 'classic pop and rock' AND artist = 'American Hi-Fi';`
+	* `SELECT * FROM track_by_genre WHERE genre = 'pop' AND track = 'Paris';`
+		* Hva skjedde?
+		* `SELECT * FROM track_by_genre WHERE genre = 'pop'AND artist='Acid House Kings' AND track = 'Paris';`
 	* `exit`
