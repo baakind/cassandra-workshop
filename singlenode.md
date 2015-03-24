@@ -6,7 +6,7 @@
 	* Tarball 2.0.12 
 * Unzip
 * Editer conf/cassandra.yaml
-	* cluster_name: 'Bekk Workshop'
+	* cluster_name: 'BEKK Workshop'
 	* data_files_directories: ./cassandra-data/data
 	* commitlog_directory: ./cassandra-data/commitlog
 	* saved_caches_directory: ./cassandra-data/saved_caches
