@@ -41,7 +41,7 @@
 		* LIMIT
 	* `SELECT DISTINCT genre FROM track_by_genre;`
 	* `SELECT * FROM track_by_genre WHERE genre = 'pop' LIMIT 10;`
-	* `SELECT * FROM track_by_genre WHERE track_length_in_seconds > 190;`
+	* `SELECT * FROM track_by_genre WHERE starred = true;`
 		* Hva skjedde?
 		* CREATE INDEX name ON table(column_name)
 	* `SELECT * FROM track_by_genre WHERE genre = 'pop' AND track = 'Paris';`
