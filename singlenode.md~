@@ -20,8 +20,8 @@
 * bin/cqlsh
 	* `DESCRIBE keyspaces`
 	* `USE system;`
-	* `DESCRIBE tables;`
-	* `DESCRIBE TABLE batchlog;`
+	* `DESCRIBE tables`
+	* `DESCRIBE TABLE batchlog`
 	* `exit`
 * bin/nodetool \<kommando\> (blank = help)
 	* status
@@ -32,10 +32,10 @@
 * unpack `datasett-singlenode.tar.gz`
 * bin/cqlsh -f datasett/playlist.cql
 * bin/cqlsh
-	* `DESCRIBE keyspaces;`
+	* `DESCRIBE keyspaces`
 	* `USE playlist;`
-	* `DESCRIBE tables;`
-	* `DESCRIBE TABLE track_by_genre;`
+	* `DESCRIBE tables`
+	* `DESCRIBE TABLE track_by_genre`
 	* `SELECT COUNT(1) FROM track_by_genre;`
 		* Hva skjedde?
 		* LIMIT
